@@ -22,9 +22,9 @@ public class Principal extends javax.swing.JFrame {
         
         loginManager = new LoginManager();
         
-        ImagenFrame imagenFrame = new ImagenFrame(lblLogo, "C:\\Users\\tm145\\Documents\\NetBeansProjects\\login\\src\\main\\java\\com\\mycompany\\login\\img\\icon.png",70,70);
+        ImagenFrame imagenFrame = new ImagenFrame(lblLogo, "C:\\Users\\tm145\\Documents\\NetBeansProjects\\stn\\src\\main\\java\\com\\mycompany\\login\\img\\icon.png",70,70);
         
-        ImagenFrame imagenBackground = new ImagenFrame(jLabelbackground, "C:\\Users\\tm145\\Documents\\NetBeansProjects\\login\\src\\main\\java\\com\\mycompany\\login\\img\\desktop-wallpaper-tools-construction-tools.jpg", 340, 467);
+        ImagenFrame imagenBackground = new ImagenFrame(jLabelbackground, "C:\\Users\\tm145\\Documents\\NetBeansProjects\\stn\\src\\main\\java\\com\\mycompany\\login\\img\\desktop-wallpaper-tools-construction-tools.jpg", 340, 467);
         
     }
 
