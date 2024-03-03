@@ -178,6 +178,11 @@ public class Menu extends javax.swing.JFrame {
         jPanel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         BtnHerramientas1.setText("Herramientas");
+        BtnHerramientas1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnHerramientas1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -249,6 +254,11 @@ public class Menu extends javax.swing.JFrame {
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         BtnHerramientas.setText("Herramientas");
+        BtnHerramientas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnHerramientasActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -359,6 +369,14 @@ public class Menu extends javax.swing.JFrame {
         cerrarVentana();
     }//GEN-LAST:event_btnSalirActionPerformed
 
+    private void BtnHerramientas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnHerramientas1ActionPerformed
+        abrirMenuHerramientas();
+    }//GEN-LAST:event_BtnHerramientas1ActionPerformed
+
+    private void BtnHerramientasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnHerramientasActionPerformed
+        abrirMenuHerramientas();
+    }//GEN-LAST:event_BtnHerramientasActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BtnHerramientas;
     private javax.swing.JButton BtnHerramientas1;
@@ -402,6 +420,14 @@ public class Menu extends javax.swing.JFrame {
         
         registro.setVisible(true);
         registro.setLocationRelativeTo(null);
+    }
+    
+    private void abrirMenuHerramientas() {
+        MenuDeHerramientas menuDeHerramientas = new MenuDeHerramientas(user);
+        
+        menuDeHerramientas.setVisible(true);
+        menuDeHerramientas.setLocationRelativeTo(null);
+
     }
 
     private void actualizarInfoUsuario() {
