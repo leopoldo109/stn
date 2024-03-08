@@ -13,7 +13,7 @@ Sistema para una constructora de gran importancia, simplificando las siguientes 
 
 <hr>
 
-## Divisiond de carpetas
+## Division de carpetas
 
 El proyecto cuenta con las siguientes carpetas:
 
